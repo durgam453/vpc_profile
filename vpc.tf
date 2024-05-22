@@ -1,5 +1,5 @@
 # Create VPC using Terraform Module
-module "vpc" {
+module "vpc-primary" {
   source  = "terraform-aws-modules/vpc/aws"
   version = "5.8.1"
 
