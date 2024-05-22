@@ -2,7 +2,7 @@ provider "aws" {
   region = var.region
 }
 
-module "vpc" {
+module "vpc-primary" {
   source  = "terraform-aws-modules/vpc/aws"
   version = "4.0.0"
 
